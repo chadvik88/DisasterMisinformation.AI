@@ -1,2 +1,20 @@
-"__pycache__/" 
-".env" 
+# Python
+__pycache__/
+*.pyc
+
+# venv
+venv/
+.venv/
+
+# Data
+data/data_raw/
+data/data_processed/
+
+# Secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+.DS_Store

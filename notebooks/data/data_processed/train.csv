@@ -1,0 +1,101 @@
+id,text,label
+1,Breaking: earthquake just occurred in Mumbai. Emergency crews on site.,real
+2,Tokyo flood? Government silent. #suspicious,misleading
+3,Breaking: earthquake just occurred in Tokyo. Emergency crews on site.,real
+4,Confirmed by authorities: earthquake in San Francisco caused significant damage.,real
+5,Leaked audio: flood was man-made.,fake
+6,Fake alert: Tsunami in Mumbai — no official sources confirm.,fake
+7,Terrifying image of wildfire in Tokyo – but from 2017!,out_of_context
+8,"People think this video is from today, but it's old.",out_of_context
+9,Leaked audio: wildfire was man-made.,fake
+10,Reusing images from 2015 to scare people about earthquake.,out_of_context
+11,Breaking: earthquake just occurred in San Francisco. Emergency crews on site.,real
+12,Why is no one talking about earthquake in Jakarta? Cover-up?,misleading
+13,Terrifying image of tsunami in Mumbai – but from 2017!,out_of_context
+14,Reusing images from 2015 to scare people about earthquake.,out_of_context
+15,Reports suggest magnitude 9.9 quake – but is it true?,misleading
+16,Terrifying image of flood in San Francisco – but from 2017!,out_of_context
+17,Fake alert: Tsunami in Tokyo — no official sources confirm.,fake
+18,Jakarta wildfire? Government silent. #suspicious,misleading
+19,Reports suggest magnitude 9.9 quake – but is it true?,misleading
+20,Leaked audio: tsunami was man-made.,fake
+21,Jakarta flood? Government silent. #suspicious,misleading
+22,Breaking: earthquake just occurred in San Francisco. Emergency crews on site.,real
+23,Fake alert: Tsunami in Istanbul — no official sources confirm.,fake
+24,Confirmed by authorities: earthquake in Tokyo caused significant damage.,real
+25,Jakarta faces severe earthquake. Stay tuned to official channels.,real
+26,Confirmed by authorities: earthquake in Mumbai caused significant damage.,real
+27,Reusing images from 2015 to scare people about earthquake.,out_of_context
+28,Terrifying image of flood in Istanbul – but from 2017!,out_of_context
+29,Aliens caused the tsunami in Tokyo. Wake up!,fake
+30,Why is no one talking about earthquake in San Francisco? Cover-up?,misleading
+31,Aliens caused the earthquake in Istanbul. Wake up!,fake
+32,Leaked audio: tsunami was man-made.,fake
+33,San Francisco tsunami? Government silent. #suspicious,misleading
+34,"People think this video is from today, but it's old.",out_of_context
+35,Why is no one talking about earthquake in Tokyo? Cover-up?,misleading
+36,San Francisco flood? Government silent. #suspicious,misleading
+37,Breaking: earthquake just occurred in Tokyo. Emergency crews on site.,real
+38,Confirmed by authorities: earthquake in San Francisco caused significant damage.,real
+39,San Francisco wildfire? Government silent. #suspicious,misleading
+40,Fake alert: Tsunami in San Francisco — no official sources confirm.,fake
+41,Fake alert: Tsunami in Jakarta — no official sources confirm.,fake
+42,Confirmed by authorities: earthquake in Tokyo caused significant damage.,real
+43,Terrifying image of earthquake in San Francisco – but from 2017!,out_of_context
+44,Aliens caused the earthquake in Jakarta. Wake up!,fake
+45,Aliens caused the wildfire in Tokyo. Wake up!,fake
+46,Confirmed by authorities: earthquake in Istanbul caused significant damage.,real
+47,Why is no one talking about earthquake in Jakarta? Cover-up?,misleading
+48,Reports suggest magnitude 9.9 quake – but is it true?,misleading
+49,Mumbai faces severe wildfire. Stay tuned to official channels.,real
+50,Leaked audio: wildfire was man-made.,fake
+51,Reports suggest magnitude 9.9 quake – but is it true?,misleading
+52,Terrifying image of wildfire in Tokyo – but from 2017!,out_of_context
+53,Confirmed by authorities: earthquake in Tokyo caused significant damage.,real
+54,Confirmed by authorities: earthquake in San Francisco caused significant damage.,real
+55,Istanbul flood? Government silent. #suspicious,misleading
+56,Leaked audio: tsunami was man-made.,fake
+57,Mumbai earthquake? Government silent. #suspicious,misleading
+58,Aliens caused the wildfire in Mumbai. Wake up!,fake
+59,Breaking: earthquake just occurred in Jakarta. Emergency crews on site.,real
+60,Mumbai earthquake? Government silent. #suspicious,misleading
+61,Breaking: earthquake just occurred in Mumbai. Emergency crews on site.,real
+62,Leaked audio: flood was man-made.,fake
+63,Breaking: earthquake just occurred in Mumbai. Emergency crews on site.,real
+64,Reports suggest magnitude 9.9 quake – but is it true?,misleading
+65,Mumbai wildfire? Government silent. #suspicious,misleading
+66,Breaking: earthquake just occurred in Jakarta. Emergency crews on site.,real
+67,San Francisco faces severe tsunami. Stay tuned to official channels.,real
+68,Leaked audio: flood was man-made.,fake
+69,Confirmed by authorities: earthquake in San Francisco caused significant damage.,real
+70,Reports suggest magnitude 9.9 quake – but is it true?,misleading
+71,Terrifying image of earthquake in Mumbai – but from 2017!,out_of_context
+72,Istanbul faces severe wildfire. Stay tuned to official channels.,real
+73,Why is no one talking about earthquake in San Francisco? Cover-up?,misleading
+74,Mumbai wildfire? Government silent. #suspicious,misleading
+75,Terrifying image of wildfire in Tokyo – but from 2017!,out_of_context
+76,Aliens caused the wildfire in San Francisco. Wake up!,fake
+77,Terrifying image of flood in San Francisco – but from 2017!,out_of_context
+78,Fake alert: Tsunami in Mumbai — no official sources confirm.,fake
+79,Reusing images from 2018 to scare people about earthquake.,out_of_context
+80,Breaking: earthquake just occurred in Mumbai. Emergency crews on site.,real
+81,Breaking: earthquake just occurred in Istanbul. Emergency crews on site.,real
+82,"People think this video is from today, but it's old.",out_of_context
+83,Reports suggest magnitude 9.9 quake – but is it true?,misleading
+84,Reports suggest magnitude 9.9 quake – but is it true?,misleading
+85,Reusing images from 2018 to scare people about earthquake.,out_of_context
+86,Fake alert: Tsunami in Jakarta — no official sources confirm.,fake
+87,Reports suggest magnitude 9.9 quake – but is it true?,misleading
+88,Leaked audio: tsunami was man-made.,fake
+89,Reports suggest magnitude 9.9 quake – but is it true?,misleading
+90,Fake alert: Tsunami in San Francisco — no official sources confirm.,fake
+91,Istanbul faces severe tsunami. Stay tuned to official channels.,real
+92,Mumbai earthquake? Government silent. #suspicious,misleading
+93,Why is no one talking about earthquake in Tokyo? Cover-up?,misleading
+94,Jakarta faces severe earthquake. Stay tuned to official channels.,real
+95,Fake alert: Tsunami in San Francisco — no official sources confirm.,fake
+96,San Francisco faces severe earthquake. Stay tuned to official channels.,real
+97,Confirmed by authorities: earthquake in San Francisco caused significant damage.,real
+98,Reports suggest magnitude 9.9 quake – but is it true?,misleading
+99,Leaked audio: earthquake was man-made.,fake
+100,Fake alert: Tsunami in San Francisco — no official sources confirm.,fake
