@@ -1,0 +1,3 @@
+id,text,image_path,label,clip_score,image_mismatch
+1,Floods hit Kerala,data/images/flood1.jpg,REAL,,0
+2,NASA confirms tsunami in Delhi,data/images/fake1.jpg,FAKE,,0

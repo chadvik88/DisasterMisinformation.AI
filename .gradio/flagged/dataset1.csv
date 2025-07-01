@@ -1,0 +1,8 @@
+Tweet Text,Disaster Image (optional),"Graph Data (.pt, optional)",output,timestamp
+"The #Sangareddy #chemicalfactory blast is a heartbreaking reminder of what negligence can cost— lives, families,futures.
+
+Stand with the victims.Demand justice, accountability,and strict industrial safety enforcement. 💔",.gradio\flagged\Disaster Image optional\91dad6e4221b6a451125\sangareddy.jpg,".gradio\flagged\Graph Data .pt, optional)\bedcc71cb45b1bd23db7\gnn_gat_model.pt","**Text Prediction**: `real` (0.54) → 🟠 MODERATE  
+**Image Prediction**: `fake` (Similarity: 0.29) → 🔴 LOW  
+**GNN Prediction**: `real`  
+---  
+**Final Ensemble**: `REAL` → 🟠 MODERATE (Score: 0.518)",2025-06-30 20:04:05.335654
