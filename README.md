@@ -8,16 +8,12 @@ Built to combat misinformation during emergencies using live text, image, and gr
 
 ## Demo
 
-> 📽️ **[Embed project demo video here]**
-
 <video width="720" controls>
-  <source src="demo/demo.mp4" type="video/mp4">
+  <source src="./screenshots/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
 ---
-
-> 🖼️ **Screenshots of Gradio & Streamlit UIs**
 
 ## Screenshots
 
@@ -98,8 +94,10 @@ DisasterMisinformation.AI/
 ├── .env                      # Local secrets/config
 ├── .gitignore
 └── venv/                     # Virtual environment (excluded from GitHub)
+```
 
-🧪 How to Run
+## How to Run
+
 1. Install Dependencies
 
 pip install -r requirements.txt
@@ -114,7 +112,8 @@ Option B: Streamlit Version
 
 streamlit run app.py
 
-Upload Format
+## Upload Format
+
 Input Type	Format Supported
 Tweet Text	Freeform natural language text
 Image	.jpg, .png, .jpeg
@@ -129,7 +128,7 @@ edge_index = torch.tensor([[0,1,2],[1,2,0]], dtype=torch.long)
 graph = Data(x=x, edge_index=edge_index)
 torch.save(graph, "graph_test.pt")
 
-Highlights
+## Highlights
 
     Real-time prediction using cutting-edge models (DeBERTa, CLIP, GNN)
 
@@ -141,7 +140,7 @@ Highlights
 
     Confidence explanations: HIGH, MODERATE, LOW
 
-Potential Improvements (Work in Progress)
+## Potential Improvements (Work in Progress)
 
     Generate GNN graphs from tweet/retweet timelines
 
