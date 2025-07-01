@@ -8,7 +8,7 @@ Built to combat misinformation during emergencies using live text, image, and gr
 
 ## Demo
 
-[![Click here to watch the demo video](./screenshots/demo_thumbnail.png)](./demo/demo.mp4)
+[![Click to watch the demo](https://img.youtube.com/vi/pM-i4KOZ8zE/0.jpg)](https://www.youtube.com/watch?v=pM-i4KOZ8zE)
 
 ---
 
@@ -61,12 +61,19 @@ Outputs include:
 
 ## Architecture Overview
 
-[ Tweet Text ] ──▶ DeBERTa Model ─┐
-│
-[ Disaster Image ] ──▶ CLIP Model ├──▶ Ensemble (Soft Voting + Weights) ──▶ Final Prediction
-│
-[ Graph (.pt) ] ──▶ GNN Model ─────┘
-
+```
+                ┌──────────────────────┐
+                │     Tweet Text       │
+                └─────────┬────────────┘
+                          │
+                  ┌───────▼────────┐
+                  │  DeBERTa Model │
+                  └───────┬────────┘
+                          │
+[ Disaster Image ] ──▶ CLIP Model ─┐
+                                   ├─▶ Ensemble (Soft Voting + Weights) ──▶ Final Prediction
+[ Graph (.pt) ] ───────▶ GNN Model ┘
+```
 
 ---
 
@@ -95,25 +102,25 @@ DisasterMisinformation.AI/
 
 ## How to Run
 
-Install Dependencies
+**Install Dependencies**
 
- pip install -r requirements.txt
+   pip install -r requirements.txt
 
-Launch the App
+**Launch the App**
 
- Option A: Gradio UI (Recommended)
+ *Option A*: Gradio UI (Recommended)
 
-  python gradio_app.py
+    python gradio_app.py
 
- Option B: Streamlit Version
+ *Option B*: Streamlit Version
 
-  streamlit run app.py
+    streamlit run app.py
 
 ## Upload Format
 
     Input Type	Format Supported
     Tweet Text	Freeform natural language text
-    Image	.jpg, .png, .jpeg
+    Image	    .jpg, .png, .jpeg
     Graph File	PyTorch .pt (torch_geometric Data object)
 
 ### Example Graph File
