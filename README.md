@@ -8,10 +8,7 @@ Built to combat misinformation during emergencies using live text, image, and gr
 
 ## Demo
 
-<video width="720" controls>
-  <source src="./screenshots/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Click here to watch the demo video](./screenshots/demo_thumbnail.png)](./demo/demo.mp4)
 
 ---
 
@@ -98,35 +95,35 @@ DisasterMisinformation.AI/
 
 ## How to Run
 
-1. Install Dependencies
+Install Dependencies
 
-pip install -r requirements.txt
+ pip install -r requirements.txt
 
-2. Launch the App
+Launch the App
 
-Option A: Gradio UI (Recommended)
+ Option A: Gradio UI (Recommended)
 
-python gradio_app.py
+  python gradio_app.py
 
-Option B: Streamlit Version
+ Option B: Streamlit Version
 
-streamlit run app.py
+  streamlit run app.py
 
 ## Upload Format
 
-Input Type	Format Supported
-Tweet Text	Freeform natural language text
-Image	.jpg, .png, .jpeg
-Graph File	PyTorch .pt (torch_geometric Data object)
-Example Graph File
+    Input Type	Format Supported
+    Tweet Text	Freeform natural language text
+    Image	.jpg, .png, .jpeg
+    Graph File	PyTorch .pt (torch_geometric Data object)
 
-from torch_geometric.data import Data
-import torch
+### Example Graph File
 
-x = torch.randn((3, 16))  # 3 nodes, 16 features
-edge_index = torch.tensor([[0,1,2],[1,2,0]], dtype=torch.long)
-graph = Data(x=x, edge_index=edge_index)
-torch.save(graph, "graph_test.pt")
+    from torch_geometric.data import Data
+    import torch
+    x = torch.randn((3, 16))  # 3 nodes, 16 features
+    edge_index = torch.tensor([[0,1,2],[1,2,0]], dtype=torch.long)
+    graph = Data(x=x, edge_index=edge_index)
+    torch.save(graph, "graph_test.pt")
 
 ## Highlights
 
